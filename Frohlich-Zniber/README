@@ -1,0 +1,19 @@
+Arthur Fröhlich
+Mohammed Abbas Zniber
+
+Pour lancer le programme:
+- ./run.bash
+- ./compute (sans argument) pour lancer la calculatrice
+- ./compute fichier pour lancer la calculatrice à partir d'un fichier (par exemple: ./compute tests_poker/test_14.txt)
+
+Extension réalisée:
+- Interface graphique
+
+Fonctionnement
+- Selectionner une carte dans le deck de carte et cliquer sur une carte des donnes ou de la table pour la placer
+- Re-cliquer sur une carte du deck deja selectionné a pour effet de de-selectionner cette carte
+- Pour supprimer une carte des donnes ou de la table, cliquer sur la carte voulue
+- Cliquer sur le bouton Reload a pour effet de remettre toutes les cartes des donnes et de la table à vide
+- Un chronomètre est présent au dessus du bouton Reload, il se déclenche à chaque fois qu'un calcul est possible (et à chaque clique sur la fenêtre si un calcul est possible, pour faire une moyenne rapide de tête)
+
+Il a été rajouté dans tests_poker quelques tests pour une proba double (test_a/b/c/d.txt)
